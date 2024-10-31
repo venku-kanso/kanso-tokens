@@ -1,3 +1,5 @@
-import { Measures } from "./measures";
+import { Measures } from './measures';
 
-export const Typographies = {};
+
+export const Typographies = {
+}

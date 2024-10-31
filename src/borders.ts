@@ -1,4 +1,6 @@
-import { Colors } from "./colors";
-import { Measures } from "./measures";
+import { Colors } from './colors';
+import { Measures } from './measures';
 
-export const Borders = {};
+
+export const Borders = {
+}
