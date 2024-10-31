@@ -1,0 +1,19 @@
+{
+  "name": "kanso-tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "clean": "rm -rf dist",
+    "start": "ts-node src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.8.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
